@@ -19,7 +19,7 @@ A small experimental tool written in Go. It reads a PNG image, converts pixels t
 1. Run the program:bash
 go run main.go
 2. Choose action: Enter 1 for encryption or 2 for decryption.
-3. Enter the key: Type any numeric key (e.g., 42, 1337).
+3. Enter the key: Type any numeric key.
 When encrypting, it looks for photo.png and creates enc.bin.
 When decrypting, it looks for enc.bin and creates restored_photo.png.
 
@@ -45,6 +45,6 @@ When decrypting, it looks for enc.bin and creates restored_photo.png.
 go run main.go
 
 2. Выберите действие: Введите 1 для шифрования или 2 для расшифровки.
-3. Введите ключ: Наберите любое число (например, 42 или 1337).
+3. Введите ключ: Наберите любое число.
 При шифровании программа ищет photo.png и создает enc.bin.
 При расшифровке она берет enc.bin и воссоздает restored_photo.png.
