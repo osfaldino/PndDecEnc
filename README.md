@@ -21,5 +21,5 @@ go run main.go
 Используйте код с осторожностью.
 2. Choose action: Enter 1 for encryption or 2 for decryption.
 3. Enter the key: Type any numeric key (e.g., 42, 1337).
-! When encrypting, it looks for photo.png and creates enc.bin.
-! When decrypting, it looks for enc.bin and creates restored_photo.png.
+. When encrypting, it looks for photo.png and creates enc.bin.
+. When decrypting, it looks for enc.bin and creates restored_photo.png.
