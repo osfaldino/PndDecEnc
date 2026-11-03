@@ -51,4 +51,4 @@ go run main.go
    
 При шифровании программа ищет photo.png и создает enc.bin.
 
-При расшифровке она берет enc.bin и воссоздает restored_photo.png.
+При расшифровке она берет enc.bin и создает restored_photo.png.
