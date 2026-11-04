@@ -1,4 +1,3 @@
-
 English
 
 A small experimental tool written in Go. It reads a PNG image, converts pixels to bytes, obfuscates them with an XOR key, and saves everything into a custom .bin file. To get your image back, just run the decode mode with the same key.
